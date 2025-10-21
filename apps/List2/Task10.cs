@@ -8,7 +8,7 @@ public static class Task10
 
     public static void Execute(int listNumber)
     {
-        TaskDescription.ShowDescription(listNumber + "-" + 9, Description);
+        TaskDescription.ShowDescription(listNumber + "-" + 10, Description);
 
         // ---- Content ---- 
         var random = new Random();

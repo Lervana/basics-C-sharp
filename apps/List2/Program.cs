@@ -13,5 +13,6 @@ internal static class Program
         Task8.Execute(2);
         Task9.Execute(2);
         Task10.Execute(2);
+        Task11.Execute(2);
     }
 }
