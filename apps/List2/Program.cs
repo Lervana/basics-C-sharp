@@ -24,5 +24,6 @@ internal static class Program
         Task16.Execute(listNumber, taskNumber++);
         Task17.Execute(listNumber, taskNumber++);
         Task18.Execute(listNumber, taskNumber++);
+        Task19.Execute(listNumber, taskNumber++);
     }
 }
