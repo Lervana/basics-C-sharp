@@ -8,5 +8,6 @@ class Program
         Task3.Execute(2);
         Task4.Execute(2);
         Task5.Execute(2);
+        Task6.Execute(2);
     }
 }
