@@ -7,9 +7,9 @@ public static class Task3
         "Assign them appropriate values, and then display these values on the screen\n" +
         "using > Console.WriteLine() <. What values can these types store?";
 
-    public static void Execute(int listNumber)
+    public static void Execute(int listNumber, int taskNumber)
     {
-        TaskDescription.ShowDescription(listNumber + "-" + 3, Description);
+        TaskDescription.ShowDescription(listNumber + "-" + taskNumber, Description);
 
         // ---- Content ---- 
         int number = 42;

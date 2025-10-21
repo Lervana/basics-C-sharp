@@ -6,9 +6,9 @@ public static class Task10
         "Create a program that checks whether a given year is\n" +
         "a leap year and informs the user of the result.";
 
-    public static void Execute(int listNumber)
+    public static void Execute(int listNumber, int taskNumber)
     {
-        TaskDescription.ShowDescription(listNumber + "-" + 10, Description);
+        TaskDescription.ShowDescription(listNumber + "-" + taskNumber, Description);
 
         // ---- Content ---- 
         var random = new Random();

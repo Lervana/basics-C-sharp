@@ -8,9 +8,9 @@ public static class Task8
         "the entered values should be of type double. The result should be displayed\n" +
         " with two decimal places of precision.";
 
-    public static void Execute(int listNumber)
+    public static void Execute(int listNumber, int taskNumber)
     {
-        TaskDescription.ShowDescription(listNumber + "-" + 8, Description);
+        TaskDescription.ShowDescription(listNumber + "-" + taskNumber, Description);
 
         // ---- Content ---- 
         var random = new Random();

@@ -13,9 +13,9 @@ public static class Task7
         "– eurValue – the value in euro, calculated from pln and eurRate;\n" +
         "Display the results in the console using Console.WriteLine().";
 
-    public static void Execute(int listNumber)
+    public static void Execute(int listNumber, int taskNumber)
     {
-        TaskDescription.ShowDescription(listNumber + "-" + 7, Description);
+        TaskDescription.ShowDescription(listNumber + "-" + taskNumber, Description);
 
         // ---- Content ---- 
         decimal pln = 100.0m;

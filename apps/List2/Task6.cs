@@ -7,9 +7,9 @@ public static class Task6
         "stored in variables x and y. The result is first stored in variable z\n" +
         "and then displayed.";
 
-    public static void Execute(int listNumber)
+    public static void Execute(int listNumber, int taskNumber)
     {
-        TaskDescription.ShowDescription(listNumber + "-" + 6, Description);
+        TaskDescription.ShowDescription(listNumber + "-" + taskNumber, Description);
 
         // ---- Content ---- 
         int x = 5;

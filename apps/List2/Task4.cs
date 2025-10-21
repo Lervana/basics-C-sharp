@@ -7,9 +7,9 @@ public static class Task4
         "addition, subtraction, multiplication, and division.\n" +
         "Display the results of each operation.";
 
-    public static void Execute(int listNumber)
+    public static void Execute(int listNumber, int taskNumber)
     {
-        TaskDescription.ShowDescription(listNumber + "-" + 4, Description);
+        TaskDescription.ShowDescription(listNumber + "-" + taskNumber, Description);
 
         // ---- Content ---- 
         int a = 10;

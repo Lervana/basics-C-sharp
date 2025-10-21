@@ -7,9 +7,9 @@ public static class Task11
         "Write a program that converts a temperature from Celsius to Fahrenheit\n" +
         "or vice versa, depending on the setting of a boolean flag.";
 
-    public static void Execute(int listNumber)
+    public static void Execute(int listNumber, int taskNumber)
     {
-        TaskDescription.ShowDescription(listNumber + "-" + 11, Description);
+        TaskDescription.ShowDescription(listNumber + "-" + taskNumber, Description);
 
         // ---- Content ---- 
         Random random = new Random();

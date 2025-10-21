@@ -6,9 +6,9 @@ public static class Task9
         "Write a program that checks whether a given integer is even\n" +
         "or odd and displays an appropriate message.";
 
-    public static void Execute(int listNumber)
+    public static void Execute(int listNumber, int taskNumber)
     {
-        TaskDescription.ShowDescription(listNumber + "-" + 9, Description);
+        TaskDescription.ShowDescription(listNumber + "-" + taskNumber, Description);
 
         // ---- Content ---- 
         var random = new Random();

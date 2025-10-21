@@ -6,9 +6,9 @@ public static class Task5
         "Create two string variables, firstName and lastName.\n" +
         "Combine them into a single variable, fullName, and display the result.";
 
-    public static void Execute(int listNumber)
+    public static void Execute(int listNumber, int taskNumber)
     {
-        TaskDescription.ShowDescription(listNumber + "-" + 5, Description);
+        TaskDescription.ShowDescription(listNumber + "-" + taskNumber, Description);
 
         // ---- Content ---- 
         string firstName = "John";
