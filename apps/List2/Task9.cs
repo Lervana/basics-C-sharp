@@ -1,5 +1,3 @@
-using System;
-
 namespace List2;
 
 public static class Task9
