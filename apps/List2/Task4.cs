@@ -19,7 +19,6 @@ public static class Task4
         Console.WriteLine($"Subtraction: {a} - {b} = {a - b}");
         Console.WriteLine($"Multiplication: {a} * {b} = {a * b}");
         Console.WriteLine($"Division: {a} / {b} = {a / b}");
-        
         // -----------------
     }
 }
