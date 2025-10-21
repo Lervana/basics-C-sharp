@@ -14,7 +14,24 @@ public static class Task3
         TaskDescription.ShowDescription(listNumber + "-" + taskNumber, Description);
 
         // ---- Content ---- 
-        
+        Console.Write("Please enter number A: ");
+        int a = int.Parse(Console.ReadLine()!);
+
+        Console.Write("Please enter number B: ");
+        int b = int.Parse(Console.ReadLine()!);
+
+        if (a > b)
+        {
+            Console.WriteLine($"The number {a} is greater than {b}.");
+        }
+        else if (b > a)
+        {
+            Console.WriteLine($"The number {b} is greater than {a}.");
+        }
+        else
+        {
+            Console.WriteLine($"The numbers are equal ({a}).");
+        }
         // -----------------
     }
 }
