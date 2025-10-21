@@ -16,5 +16,6 @@ internal static class Program
         Task10.Execute(2, taskNumber++);
         Task11.Execute(2, taskNumber++);
         Task12.Execute(2, taskNumber++);
+        Task13.Execute(2, taskNumber++);
     }
 }

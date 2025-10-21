@@ -2,7 +2,6 @@ namespace List2;
 
 public static class Task11
 {
-    
     private const string Description =
         "Write a program that converts a temperature from Celsius to Fahrenheit\n" +
         "or vice versa, depending on the setting of a boolean flag.";

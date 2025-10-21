@@ -2,7 +2,6 @@ namespace List2;
 
 public static class Task12
 {
-    
     private const string Description =
         "Declare a few variables. Perform modulo division operations on them.\n" +
         "Display the results on the screen.";
@@ -20,7 +19,6 @@ public static class Task12
         Console.WriteLine($"{number1} % {number2} = {number1 % number2}");
         Console.WriteLine($"{number3} % {number4} = {number3 % number4}");
         Console.WriteLine($"{number2} % {number4} = {number2 % number4}");
-        
         // -----------------
     }
 }
