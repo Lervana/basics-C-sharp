@@ -2,22 +2,6 @@ namespace List2;
 
 public static class Task21
 {
-    private static double ReadDoubleInput()
-    {
-        while (true)
-        {
-            if (double.TryParse(Console.ReadLine(), out double value))
-            {
-                return value;
-            }
-            Console.WriteLine("Invalid input. Please enter a valid number:");
-        }
-    }
-
-    private static double CalculateQuadraticFunction(double a, double b, double c, double x)
-    {
-        return a * x * x + b * x + c;
-    }
     private const string Description =
         "Write a program that calculates the value of the quadratic function\n" +
         "y = ax2 + bx + c at a given point. The values of the coefficients\n" +
@@ -45,7 +29,7 @@ public static class Task21
         double x = random.NextDouble() * 10 - 5;
         Console.WriteLine($"x = {x:F2}");
 
-        double result = CalculateQuadraticFunction(a, b, c, x);
+        double result = a * x * x + b * x + c;
         Console.WriteLine($"\nResult: y = {result:F2}");
         // -----------------
     }
